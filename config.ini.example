@@ -1,0 +1,18 @@
+# App configuration file
+# ------------------------
+# @author Alexis Bogado
+# @package graphic-framework
+
+# Database
+sql.host=127.0.0.1
+sql.port=3306
+sql.username=root
+sql.password=
+sql.database=graphic-framework
+
+# Site
+app.name='Graphic Framework'
+app.url=http://localhost:8080
+app.enable_multi_lang=false
+app.default_lang=en
+app.route_after_login=home
